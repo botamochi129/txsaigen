@@ -20,10 +20,28 @@ h1 {
 section {
   margin: 40px auto;
   width: 80%;
+  max-width: 900px;
   background: white;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #e6f0ff;
 }
 
 .btn {
@@ -34,6 +52,7 @@ section {
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
+  margin-top: 10px;
 }
 .btn:hover {
   background: #005fa3;
